@@ -3,5 +3,6 @@
 const search = require('./search')
 const data = require('./data')
 
-const value = new search(data).roll('34')
-console.log(value);
+const result = new search(data).name('faisal')
+// const result = new search(data).roll('34')
+console.log(result);
